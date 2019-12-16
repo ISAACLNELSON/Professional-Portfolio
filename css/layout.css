@@ -1,0 +1,42 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    background-color: rgb(143, 204, 255);
+    border-bottom: rgb(143, 143, 143) 1px solid;
+    border-right: rgb(143, 143, 143) 1px solid;
+    /* visibility: hidden; */
+    z-index: 3;
+    
+}
+header div {
+height: 120px;
+width: 150px;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+background-color: rgb(64, 66, 66);
+color: snow;
+}
+
+
+header div:nth-of-type(2){
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(115, 192, 255);
+    overflow: hidden;
+}
+header ul {
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-40deg);
+    justify-content: space-between;
+    position: relative;
+    top: -78px; left: -90px;
+}
+nav {
+    height: 50px;
+}

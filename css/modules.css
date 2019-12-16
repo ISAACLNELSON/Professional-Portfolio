@@ -1,0 +1,93 @@
+#profile-pic {
+    width: 90px;
+    border-left: rgb(115, 192, 255) 2px solid;
+    border-top: rgb(115, 192, 255) 1px solid;
+    border-right: rgb(115, 192, 255) 2px solid;
+    border-bottom: rgb(115, 192, 255) 1px solid;
+    /* margin-left: 30px; */
+    align-self: center;
+ }
+ #hamburger {
+     width: 100px;
+     height: 60px;
+     /* position: fixed;
+     top: 0px;left: 0px; */
+     z-index: 1;
+     background-color: rgb(30, 32, 32);
+     color: white;
+     text-align: center;
+     font-size: larger;
+     align-content: center;
+     transition: ease .2s;
+     
+ }
+ #hamburger:hover{
+     border: rgb(119, 119, 119) 1px solid;
+     text-shadow: rgb(146, 146, 146) 0 1px 0;
+     background-color: rgb(115, 192, 255);
+ }
+ header nav {
+     overflow: hidden;
+     height: 120px;
+     width: 250px;
+     
+ }
+ header button {
+     width: 120px;
+     height: 28px;
+     font-size: 10px;
+     background-color: rgb(30, 32, 32);
+     color: snow;
+     align-self: center;
+    border-radius: 5px;
+    border-color: rgb(92, 111, 219);
+    transition: ease .2s;
+}
+header button:hover{
+    border: rgb(119, 119, 119) 1px solid;
+    text-shadow: rgb(146, 146, 146) 0 1px 0;
+    background-color: rgb(97, 106, 114);
+    
+}
+header ul li {
+    margin-left: 10px;
+    margin-top: 16px;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 17px;
+    /* color: #313131; */
+    background-color: rgb(64, 66, 66);
+    color: snow;
+    transition: ease .2s;
+}
+header ul li:hover{
+    border: rgb(119, 119, 119) 1px solid;
+    text-shadow: rgb(146, 146, 146) 0 1px 0;
+    background-color: rgb(97, 106, 114);
+    
+}
+header ul li:nth-of-type(1){
+position: relative;
+text-align: center;
+top: 13px;left: 65px;
+padding-top: 100px;
+}
+header ul li:nth-of-type(2){
+    text-align: center;
+    position: relative;
+    top: -1px;left: 100px;
+}
+header ul li:nth-of-type(3){
+    text-align: center;
+    position: relative;
+    top: -15px;left: 135px;
+}
+header ul li:nth-of-type(4){
+    position: relative;
+    text-align: center;
+    top: -29px;left: 164px;
+    padding-bottom: 100px;
+}
+h4 {
+text-align: center;
+/* border: rgb(115, 192, 255) 1px solid; */
+}
